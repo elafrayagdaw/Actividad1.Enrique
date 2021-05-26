@@ -14,6 +14,9 @@ public class CalcularPeriodo {
 		calcularPeriodo("Fin revolucion francesa", fecha2);
 		LocalDate fecha3 = LocalDate.of(1969, Month.JULY, 20);
 		calcularPeriodo("Hombre llega a la luna", fecha3);
+		
+		LocalDate fecha4 = LocalDate.of(1600, Month.JULY, 30);
+		calcularPeriodo("Hombre llega a la luna", fecha4);
 	}
 	
 	public static void calcularPeriodo(String nombre, LocalDate fecha) {
